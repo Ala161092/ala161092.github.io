@@ -1,0 +1,133 @@
+.header-wrapper {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+
+
+
+  .header-container {
+    width: 70%;
+    background-color: #021E41;
+    height: 75vh;
+    border-width: 10px;
+    border-style: double;
+    border-color: white;
+    position: relative;
+
+
+
+
+
+    h1 {
+      color: white;
+
+    }
+  }
+
+  .header-overlay-box {
+    width: 50%;
+    position: absolute;
+    right: -170px;
+    bottom: -99px;
+
+
+  }
+
+  .profile-image {
+    width: 20%;
+
+    img {
+      width: 80%;
+    }
+  }
+
+
+  .arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 350px;
+    width: 4em;
+    bottom: 0px;
+    animation: bouncingArrow 3s infinite;
+
+
+  }
+
+  .Typist {
+    margin-top: 70px;
+    padding: 0px 20px;
+  }
+}
+
+
+@keyframes bouncingArrow {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-30px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+@media (max-width: 576px) {
+
+  .header-wrapper {
+    max-width: 450px;
+    width: 100%;
+    height: 65vh;
+    margin-bottom: 50px;
+
+
+
+    .header-container {
+      width: 100%;
+      height: 45vh;
+    }
+
+
+    .header-overlay-box {
+      width: 250px;
+      position: absolute;
+      right: -40px;
+      bottom: -180px;
+    }
+
+
+    .profile-image {
+      width: 35%;
+      position: absolute;
+      right: -50px;
+      bottom: -30px;
+      z-index: 1;
+
+      img {
+        width: 80%;
+      }
+    }
+
+    .arrow {
+      width: 2em;
+      padding-top: 380px;
+      z-index: -1;
+    }
+
+
+    .Typist {
+      margin-top: 20px;
+    }
+  }
+
+}

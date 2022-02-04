@@ -1,0 +1,98 @@
+@import 'Header';
+@import 'Nav';
+@import 'AboutMe';
+@import 'Projects';
+@import 'Contact';
+
+
+$headingfont-family: 'Righteous',
+sans-serif;
+$bodyfont-family: 'Rubik',
+sans-serif;
+$pink-color: #CF0060;
+$blue-color:#021E41;
+
+h1,
+h2,
+h3 {
+  font-family: $headingfont-family;
+
+}
+
+h1 {
+  font-size: 5rem;
+  color: $pink-color;
+}
+
+h2 {
+  font-size: 4rem;
+  color: $blue-color;
+}
+
+h3 {
+  font-size: 3rem;
+  color: $blue-color;
+}
+
+a {
+  color: $blue-color;
+}
+
+body {
+  font-family: $bodyfont-family;
+  margin: 0 auto;
+  width: 1400px;
+  padding: 0px 30px;
+  background-color: white;
+  color: $blue-color;
+  margin-top: 0px;
+}
+
+.Typist .Cursor {
+  display: none;
+}
+
+.Typist .Cursor--blinking {
+  opacity: 0;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 576px) {
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+
+  body {
+    max-width: 380px;
+    margin: 0 auto;
+
+  }
+}
