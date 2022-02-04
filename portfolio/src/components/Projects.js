@@ -45,13 +45,15 @@ function Projects() {
           <div>
             {isText ? (
               <div className="project-text-container">
+                <h4 className="custom-underline-blue">OverView:</h4>
                 <p>
                   This was my final solo project with General Assembly.
                   Hand-Me-Over is an ecommerce site, which allows users to
-                  purchase and sell their own designer handbag.
-                  <br />
-                  Brief:
-                  <br />
+                  purchase and sell their own designer handbag. Users are able
+                  to read reviews and post their own.
+                </p>
+                <h4 className="custom-underline-blue">Brief:</h4>
+                <p>
                   Create a full stack app using PostgreSQL, Python & Django on
                   the back-end and a React Front-End.
                 </p>
@@ -76,16 +78,19 @@ function Projects() {
           <div>
             {isText ? (
               <div className="project-text-container">
+                <h4 className="custom-underline-blue">OverView:</h4>
                 <p>
-                  This was my first group project with General Assmebly.
-                  Techanic is a developer based collab app, where users are able
-                  to post projects that they are working on and would like other
-                  developers to collaborate with them on.
-                  <br />
-                  Brief:
-                  <br />8 days to build a full stack MERN app with crud
-                  functionality built on Express & MongoDb and must have
-                  multiple front-end pages using React.
+                  My first group project with General Assmebly. Techanic is a
+                  developer based collab app, where users are able to post
+                  projects that they are working on and would like other
+                  developers to collaborate with them on.{" "}
+                </p>
+                <h4 className="custom-underline-blue">Brief:</h4>
+                <p>
+                  {" "}
+                  8 days to build a full stack MERN app with crud functionality
+                  built on Express & MongoDb and has multiple front-end pages
+                  using React.
                 </p>
                 <div className="links-container">
                   <a href="https://techanic.herokuapp.com/">
@@ -108,17 +113,17 @@ function Projects() {
           <div>
             {isText ? (
               <div className="project-text-container">
+                <h4 className="custom-underline-blue">OverView:</h4>
                 <p>
                   My second solo project at General Assembly. This site utilises
                   the Moviedb API, users of the site are able to view the latest
-                  trending movies and tv shows, read the reviews of those who
-                  have posted and find something else to watch based on the
-                  recommendations
-                  <br />
-                  Brief:
-                  <br />
+                  trending movies and tv shows, read reviews and find something
+                  else to watch based on the recommendations.{" "}
+                </p>
+                <h4 className="custom-underline-blue">Brief:</h4>
+                <p>
                   This was a 48 hour hackathon project. This application was
-                  created using React, JavaScript, HTML and styles with SAS
+                  created using React, JavaScript, HTML and styled with SASS.
                 </p>
                 <div className="links-container">
                   <a href="https://culuflix.netlify.app/">
@@ -141,15 +146,18 @@ function Projects() {
           <div>
             {isText ? (
               <div className="project-text-container">
+                <h4 className="custom-underline-blue">OverView:</h4>
                 <p>
                   This was my first project from the General Assembly course. My
                   project was built on a modern twist of the original arcade
-                  game Pacman.
-                  <br />
-                  Brief:
-                  <br />
+                  game Pacman.{" "}
+                </p>
+
+                <h4 className="custom-underline-blue">Brief:</h4>
+
+                <p>
                   We were given 8 days to build a classic JavaScript-grid based
-                  arcade game, using HTML & CSS
+                  arcade game, using HTML & CSS.
                 </p>
                 <div className="links-container">
                   <a href="https://ala161092.github.io/PacMan/">
@@ -172,16 +180,16 @@ function Projects() {
           <div>
             {isText ? (
               <div className="project-text-container">
+                <h4 className="custom-underline-blue">OverView:</h4>
                 <p>
-                  My first ever solo project. After watching several online
-                  course and tutuorials, I took my first step and replicated a
-                  design I found online through Udemy. The project is fully
-                  responsive.
-                  <br />
-                  Brief:
-                  <br />
+                  My first solo project. After watching several online courses
+                  and tutuorials, I took my first step and replicated a design I
+                  found online through Udemy. This site is fully responsive.
+                </p>
+                <h4 className="custom-underline-blue">Brief:</h4>
+                <p>
                   This project was built using HTML5 & CSS, with some JavaScript
-                  applied.
+                  applied.{" "}
                 </p>
                 <div className="links-container">
                   <a href="https://omni-food-three.vercel.app/">
@@ -204,13 +212,16 @@ function Projects() {
           <div>
             {isText ? (
               <div className="project-text-container">
+                <h4 className="custom-underline-blue">OverView:</h4>
                 <p>
                   A small project from the frontendmentor.io platflorm. I was
                   able to practice CSS flexbox and really cement my HTML
                   learning. This site is fully responsive.
-                  <br />
-                  This project was built using HTML & CSS
                 </p>
+
+                <h4 className="custom-underline-blue">Brief:</h4>
+                <p> This project was built using HTML & CSS.</p>
+
                 <div className="links-container">
                   <a href="https://huddle-2-git-main-ala161092.vercel.app/">
                     <FaLink /> Live Link

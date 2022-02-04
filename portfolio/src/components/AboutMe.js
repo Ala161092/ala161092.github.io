@@ -1,8 +1,11 @@
 import React from "react";
+import { FaFigma } from "react-icons/fa";
+
 import worldMap from "../assets/world-map.jpg";
 import foodImage from "../assets/cooking.jpg";
 import catsImage from "../assets/cat.jpg";
 import "aos/dist/aos.css";
+
 
 function AboutMe() {
   return (
@@ -41,7 +44,7 @@ function AboutMe() {
           <i className="devicon-html5-plain-wordmark"></i>
           <i className="devicon-css3-plain-wordmark"></i>
           <i className="devicon-sass-original"></i>
-          <i className="devicon-javascript-plain"></i>
+          <i className="devicon-javascript-plain"><p>JavaScript</p></i>
           <i className="devicon-python-plain-wordmark"></i>
           <i className="devicon-nodejs-plain-wordmark"></i>
           <i className="devicon-npm-original-wordmark"></i>
@@ -55,8 +58,8 @@ function AboutMe() {
           <i className="devicon-vuejs-plain-wordmark"></i>
           <i className="devicon-express-original-wordmark"></i>
           <i className="devicon-vscode-plain-wordmark"></i>
-          <i className="devicon-figma-plain"></i>
-          <i className="devicon-photoshop-plain"></i>
+          <i className="devicon-figma-plain"><p>Figma</p></i>
+          <i className="devicon-photoshop-plain"><p>Photoshop</p></i>
           <i className="devicon-trello-plain-wordmark"></i>
         </div>
       </div>
@@ -107,7 +110,7 @@ function AboutMe() {
             <p>
               I am obsessed with cats. My recent rescue kitten - not so much a
               kitten anymore is lollipop. Strange name I know, but she is just
-              the sweetest little creature! When I'm not coding i'm probably
+              the sweetest little creature! When I'm not coding I'm probably
               chasing her around the house.
             </p>
           </section>

@@ -37,10 +37,9 @@ function Header() {
         </div>
         <div
           className="contact-details-container">
-          <p>
+            <a href="mailto:ala@alaworks.io">
             <FaMailBulk /> ala@alaworks.io
-          </p>
-          <p></p>
+            </a>
           <a href="https://github.com/Ala161092">
             <FaGithub /> GitHub
           </a>

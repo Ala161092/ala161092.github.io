@@ -25,6 +25,22 @@
         grid-gap: 20px;
         font-size: 60px;
 
+        .devicon-figma-plain, .devicon-photoshop-plain, .devicon-javascript-plain {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+
+            p {
+                margin: 0px;
+                padding: 0px;
+                background-color: white;
+                font-size: 12px;
+                text-align: left;
+            }
+        }
+
+         
+
     }
 }
 
